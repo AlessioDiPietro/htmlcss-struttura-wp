@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    margin: 15px 30px;
+}
+/* form header */
+header {
+    height: 90px;
+    /*height da togliere */
+    background-color:#e579e6 ;
+}
+    /* fine form header */
+
+/* jumbotron */
+}
+
+
