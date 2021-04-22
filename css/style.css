@@ -11,7 +11,7 @@ header {
     height: 90px;
     /*height da togliere */
     background-color:#e579e6 ;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 /* fine form header */
 
@@ -21,7 +21,7 @@ header {
     height: 300px;
     /* fine form header */
     background-color:#e1d67a;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 /* fine jumbotron */
 
@@ -29,13 +29,15 @@ main {
     height: 430px;
     /* height da togliere */
     background-color: #0086ff;
+    margin-bottom: 10px;
 }
+
 main::after{
     content: " ";
     display:table;
     clear:both;
-    margin-bottom: 5px;
 }
+
 
 /* inizio sottotitolo */
 .sottotitolo {
@@ -43,6 +45,8 @@ main::after{
 /* fine form header */
     background-color:#abcfe7 ;
 }
+/* fine sottotitolo */
+
 
 /* inizio banner DX,CENTER,SX */
 .banner {
@@ -61,5 +65,13 @@ main::after{
     width:calc(50% - 30px);
     margin: 30px 15px;
 }
+/* fine banner DX,CENTER,SX */
 
-/* inizio footer */
+
+/* inizio ringraziamento */
+footer {
+height: 45px;
+/* height da togliere */
+background-color: #8601fe;
+}
+/* fine ringraziamento */
