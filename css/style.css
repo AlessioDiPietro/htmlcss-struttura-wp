@@ -34,6 +34,7 @@ main::after{
     content: " ";
     display:table;
     clear:both;
+    margin-bottom: 5px;
 }
 
 /* inizio sottotitolo */
@@ -59,5 +60,6 @@ main::after{
 .center {
     width:calc(50% - 30px);
     margin: 30px 15px;
-    
 }
+
+/* inizio footer */
