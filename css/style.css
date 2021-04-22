@@ -13,13 +13,51 @@ header {
     background-color:#e579e6 ;
     margin-bottom: 15px;
 }
-    /* fine form header */
+/* fine form header */
+
 
 /* jumbotron */
 .jumbotron {
     height: 300px;
+    /* fine form header */
     background-color:#e1d67a;
     margin-bottom: 15px;
 }
+/* fine jumbotron */
 
+main {
+    height: 430px;
+    /* height da togliere */
+    background-color: #0086ff;
+}
+main::after{
+    content: " ";
+    display:table;
+    clear:both;
+}
 
+/* inizio sottotitolo */
+.sottotitolo {
+    height: 65px;
+/* fine form header */
+    background-color:#abcfe7 ;
+}
+
+/* inizio banner DX,CENTER,SX */
+.banner {
+    float: left;
+    height: 300px;
+    /* height da togliere */
+    background-color:#abcfe7 ;
+    margin: 30px 0;
+}
+
+.dx, .sx {
+    width: 25%;
+}
+
+.center {
+    width:calc(50% - 30px);
+    margin: 30px 15px;
+    
+}
